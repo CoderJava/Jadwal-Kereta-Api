@@ -15,7 +15,7 @@ import ysn.codepolitan_jadwalkeretaapi.model.data_stasiun.DataStasiun;
 public interface KeretaApiService {
 
     public final String baseApiUrl = "http://ibacor.com/";
-    public final String apiKey = "<Your API Key>";
+    public final String apiKey = "4af9a1e2eecba58e1299ca1f0a41b765";
 
     @GET("api/kereta-api")
     Call<DataStasiun> getDataStasiun(@Query("k") String apiKey);

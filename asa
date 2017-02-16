@@ -1,0 +1,30 @@
+[33mcommit 95b2c5c14f1ba091b21af958560c710333884126[m
+Author: CoderJava <kolonel.yudisetiawan@gmail.com>
+Date:   Thu Feb 16 11:35:52 2017 +0700
+
+    Perbaikan layout timeline jadwal kereta api
+
+[33mcommit 68ff264898cfa2cb961f5127d1375489764e09b9[m
+Merge: 63c4290 09d8541
+Author: CoderJava <kolonel.yudisetiawan@gmail.com>
+Date:   Thu Feb 16 11:31:49 2017 +0700
+
+    Merge branch 'master' of https://github.com/CoderJava/Jadwal-Kereta-Api
+
+[33mcommit 63c429021b85c4d31351dd7678b0b230804ae534[m
+Author: CoderJava <kolonel.yudisetiawan@gmail.com>
+Date:   Thu Feb 16 11:28:19 2017 +0700
+
+    API Key disembunyikan
+
+[33mcommit 09d854146068cbc6bc3c3d76bd92f106172f0a72[m
+Author: Yudi Setiawan <kolonel.yudisetiawan@gmail.com>
+Date:   Thu Feb 16 11:17:52 2017 +0700
+
+    Create README.md
+
+[33mcommit 13dc3eb3a405cc3f6dbe9457dbb4b3808ff66765[m
+Author: CoderJava <kolonel.yudisetiawan@gmail.com>
+Date:   Thu Feb 16 11:06:53 2017 +0700
+
+    Release application version 1.0.0
