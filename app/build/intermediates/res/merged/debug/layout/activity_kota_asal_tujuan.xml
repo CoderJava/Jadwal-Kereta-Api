@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kota_asal_tujuan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ysn.codepolitan_jadwalkeretaapi.activity.KotaAsalTujuanActivity"
+    >
+    
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar_activity_kota_asal_tujuan"
+        android:background="@color/colorPrimary"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp"
+        >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="16dp"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_batal_activity_kota_asal_tujuan"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="Batal"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/background_button"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:paddingTop="13dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="13dp"
+                android:paddingLeft="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_input_kota_asal_activity_kota_asal_tujuan"
+                android:hint="Masukkan kota asal"
+                android:textColor="@android:color/white"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/button_batal_activity_kota_asal_tujuan"
+                android:layout_toStartOf="@+id/button_batal_activity_kota_asal_tujuan"
+                android:background="@android:color/transparent"
+                />
+            
+        </RelativeLayout>
+        
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view_activity_kota_asal_tujuan"
+        android:layout_below="@+id/toolbar_activity_kota_asal_tujuan"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        />
+
+</RelativeLayout>

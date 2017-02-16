@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ysn.codepolitan_jadwalkeretaapi.activity.HomeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_activity_home"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Jadwal Kereta Api"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_kota_asal_activity_home"
+                android:hint="Kota Asal"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_kota_tujuan_activity_home"
+                android:hint="Kota Tujuan"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_text_tanggal_keberangkatan_activity_home"
+                android:focusable="false"
+                android:hint="Tanggal Keberangkatan"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_cek_jadwal_activity_home"
+                android:text="Cek Jadwal"
+                android:textColor="@color/colorPrimary"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/background_button"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:paddingTop="13dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="13dp"
+                android:paddingLeft="13dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

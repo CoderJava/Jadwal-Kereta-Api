@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="200dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:background="@drawable/background_circle_berangkat"
+            android:layout_marginLeft="90dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="70dp"
+            />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_jam_berangkat_item_jadwal_kereta_api"
+            android:layout_marginTop="67dp"
+            android:text="10:13"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_tanggal_berangkat_item_jadwal_kereta_api"
+            android:layout_below="@+id/text_view_jam_berangkat_item_jadwal_kereta_api"
+            android:text="18 Feb 2017"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_nama_kereta_api_item_jadwal_kereta_api"
+            android:text="SRIBILAH UTAMA (U43)"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_toEndOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_kelas_subkelas_item_jadwal_kereta_api"
+            android:layout_toRightOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_toEndOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_below="@+id/text_view_nama_kereta_api_item_jadwal_kereta_api"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="3dp"
+            android:text="Kelas Eksekutif - I"
+            android:textSize="13sp"
+            android:textColor="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_harga_tiket_item_jadwal_kereta_api"
+            android:layout_toRightOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_toEndOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_below="@+id/text_view_kelas_subkelas_item_jadwal_kereta_api"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="3dp"
+            android:text="Rp 135.000"
+            android:textSize="13sp"
+            android:textColor="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_kota_asal_item_jadwal_kereta_api"
+            android:layout_toRightOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_toEndOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="70dp"
+            android:text="BATANGKUIS"
+            android:textSize="15sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/view_line_horizontal_atas_durasi_item_jadwal_kereta_api"
+            android:layout_toRightOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_below="@+id/text_view_kota_asal_item_jadwal_kereta_api"
+            android:layout_toEndOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_durasi_item_jadwal_kereta_api"
+            android:layout_below="@+id/view_line_horizontal_atas_durasi_item_jadwal_kereta_api"
+            android:layout_toRightOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_toEndOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Durasi 3j 36m"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/view_line_horizontal_bawah_durasi_item_jadwal_kereta_api"
+            android:layout_toRightOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_toEndOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_below="@+id/text_view_durasi_item_jadwal_kereta_api"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_kota_tujuan_item_jadwal_kereta_api"
+            android:layout_below="@+id/view_line_horizontal_bawah_durasi_item_jadwal_kereta_api"
+            android:layout_toRightOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/view_circle_berangkat_item_jadwal_kereta_api"
+            android:layout_marginTop="16dp"
+            android:text="MEDAN"
+            android:textSize="15sp"
+            />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/view_circle_datang_item_jadwal_kereta_api"
+            android:background="@drawable/background_circle_datang"
+            android:layout_marginLeft="90dp"
+            android:layout_marginStart="90dp"
+            android:layout_below="@+id/view_line_horizontal_bawah_durasi_item_jadwal_kereta_api"
+            android:layout_marginTop="16dp"
+            />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_jam_datang_item_jadwal_kereta_api"
+            android:text="13:49"
+            android:gravity="center"
+            android:layout_below="@+id/view_line_horizontal_bawah_durasi_item_jadwal_kereta_api"
+            android:layout_marginTop="13dp"
+            />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_tanggal_datang_item_jadwal_kereta_api"
+            android:layout_below="@+id/text_view_jam_datang_item_jadwal_kereta_api"
+            android:layout_marginTop="5dp"
+            android:text="18 Feb 2017"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

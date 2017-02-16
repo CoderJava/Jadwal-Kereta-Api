@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

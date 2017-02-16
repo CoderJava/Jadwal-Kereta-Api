@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_train_black_24dp.png",
+        "source": "/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_train_black_24dp.png"
+    },
+    {
+        "merged": "/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_keyboard_backspace_black_24dp.png",
+        "source": "/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_keyboard_backspace_black_24dp.png"
+    },
+    {
+        "merged": "/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_directions_transit_black_24dp.png",
+        "source": "/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_directions_transit_black_24dp.png"
+    }
+]
