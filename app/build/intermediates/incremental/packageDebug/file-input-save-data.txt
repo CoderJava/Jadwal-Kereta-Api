@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Feb 16 10:45:39 WIB 2017
+#Thu Feb 16 11:23:00 WIB 2017
 210.set=ANDROID_RESOURCE
 282.file=/home/yudi/AndroidStudioProjects/Codepolitan-JadwalKeretaApi/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
 14.set=ANDROID_RESOURCE
