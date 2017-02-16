@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/edit_text_input_kota_asal_activity_kota_asal_tujuan"
-                android:hint="Masukkan kota asal"
+                android:hint="Masukkan nama kota"
                 android:textColor="@android:color/white"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@+id/button_batal_activity_kota_asal_tujuan"
